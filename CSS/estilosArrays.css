@@ -121,6 +121,26 @@
     -webkit-transform: rotateY(-180deg) translateX(4px);
   }
 }
+@-webkit-keyframes error {
+  10%,
+  90% {
+    -webkit-transform: rotateY(-180deg) translateX(-1px);
+  }
+  20%,
+  80% {
+    -webkit-transform: rotateY(-180deg) translateX(2px);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotateY(-180deg) translateX(-4px);
+  }
+  40%,
+  60% {
+    -webkit-transform: rotateY(-180deg) translateX(4px);
+  }
+}
+
 @keyframes acierto {
   from {
     transform: rotateY(-180deg) scale3d(1, 1, 1);
