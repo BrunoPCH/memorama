@@ -169,3 +169,20 @@
 .error {
   animation: error 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
+
+@media only screen and (max-width: 375px) {
+  .contenedor_cartas {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .carta {
+    width: calc(calc(100%-60px) / 4);
+    aspect-ratio: 1/1;
+    margin: 5px;
+    
+}
